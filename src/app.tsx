@@ -1,11 +1,12 @@
-import React from 'react';
-import { useParams } from 'react-router';
+import React from "react";
+import MobileWrapper from "./components/MobileWrapper";
+import Page from "./pages/Page";
 
 const App = () => {
-    const { id } = useParams<{ id: string }>();
-
     return (
-        <div>Render {id}</div>
+        <MobileWrapper>
+            <Page />
+        </MobileWrapper>
     );
 };
 

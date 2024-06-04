@@ -1,0 +1,18 @@
+.button_wrapper {
+    width: 100%;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: #2e71f0;
+    cursor: pointer;
+    margin: 8px 0px;
+    min-height: 150px;
+    outline: none;
+    border: none;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.button_text {
+    font-size: 28px;
+    text-align: left;
+}

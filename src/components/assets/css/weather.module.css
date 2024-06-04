@@ -1,0 +1,92 @@
+.wrapper_weather_widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 30%;
+}
+.widget {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+.currentWeather_wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+.current_weather_wrapper_cloud {
+    width: 48px;
+    height: 48px;
+    background: url("../../../icons/cloudy.svg") no-repeat center center;
+    background-size: contain;
+}
+.currentWeather {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.temperature {
+    font-size: 28px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.condition {
+    font-size: 13px;
+    color: #888;
+    text-align: left;
+}
+
+.location {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.forecastDay {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #888;
+}
+
+.cloudy {
+    width: 36px;
+    height: 36px;
+    background: url("../../../icons/cloudy.svg") no-repeat center center;
+    background-size: contain;
+    margin-bottom: 5px;
+}
+.clear-day {
+    width: 36px;
+    height: 36px;
+    background: url("../../../icons/cloudy.svg") no-repeat center center;
+    background-size: contain;
+    margin-bottom: 5px;
+}
+
+.rain {
+    width: 36px;
+    height: 36px;
+    background: url("../../../icons//rain.svg") no-repeat center center;
+    background-size: contain;
+    margin-bottom: 5px;
+}
