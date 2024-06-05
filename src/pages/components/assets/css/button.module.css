@@ -11,8 +11,21 @@
     color: #ffffff;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .button_text {
-    font-size: 28px;
+    font-size: 24px;
     text-align: left;
+}
+.button_text_right {
+    font-size: 24px;
+    text-align: right;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.button_text_right svg {
+    width: 48px;
+    height: 48px;
+    fill: #fff;
 }

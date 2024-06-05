@@ -1,11 +1,11 @@
 import React from "react";
 import MobileWrapper from "./components/MobileWrapper";
-import Page from "./pages/Page";
+import DynamicRenderer from "./pages/DynamicRenderer";
 
-const App = () => {
+const App: React.FC<any> = () => {
     return (
         <MobileWrapper>
-            <Page />
+            <DynamicRenderer />
         </MobileWrapper>
     );
 };
